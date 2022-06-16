@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TITLE</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="classMyName">Ayato Shitomi</div>
+            <div id="idHeaderPortfolio">Portfolio</div>
+        </header>
+
+        <div id="idIntroduce">
+            <div class="classTitle">INTRODUCE</div>
+            <div id="idIntroduceArea">
+                <div id="idIconAndName">
+                    <div><img id="idMyIcon" width="200" height="200" src="srcs/LabPixel.png"></img></div>
+                    <div id="idName">蔀 綾人</div>
+                    <script>
+                        const birthday = {
+                            year: 2004,
+                            month: 11,
+                            date: 24
+                        };
+        
+                        function getAge(birthday){
+                            var today = new Date();
+                            var thisYearsBirthday = new Date(today.getFullYear(), birthday.month-1, birthday.date);
+                            var age = today.getFullYear() - birthday.year;
+                            if(today < thisYearsBirthday){
+                                age--;
+                            }
+                            return age;
+                        }
+                        var elmAge = document.createElement("div");
+                        var cntAge = document.createTextNode("(" + getAge(birthday) + ")");
+                        elmAge.appendChild(cntAge);
+                        elmAge.setAttribute("id","idMyAge");
+                        var parentDiv = document.getElementById("idIconAndName");
+                        parentDiv.appendChild(elmAge);
+                    </script>
+                </div>
+                <div id="idMyState">札幌出身、札幌の定時制高校に通う男子高校生<br>個人事業「LabPixel Frameworks」代表（2022年4月設立）<br>フランス発エンジニア養成機関「42Tokyo」本科生<br>LITE inc. 所属 プログラマー・エンジニア</div>
+            </div>
+            <div id="idMyWord">「身の回りに起こること、すべてが学び」</div>
+            <div id="idTxtMajor">専門分野</div>
+            <div id="idMajorArea">
+                <div id="idLanguage">
+                    <div>Python</div>
+                    <div>C</div>
+                    <div>Go</div>
+                    <div>HTML CSS</div>
+                    <div>Java Script</div>
+                    <div>node.js</div>
+                    <div>Type Script</div>
+                    <div>PHP</div>
+                    <div>Ruby</div>
+                    <div>Ruby on Rails</div>
+                    <div>VBS</div>
+                </div>
+                <div id="idMajor">
+                    <div>Unix開発</div>
+                    <div>Linux</div>
+                    <div>Ubuntu</div>
+                    <div>Debian</div>
+                    <div>Shell</div>
+                    <div>サーバー構築</div>
+                    <div>ネットワークセキュリティ</div>
+                    <div>ペネトレーションテスト</div>
+                    <div>Webページ作成</div>
+                    <div>Webアプリ開発</div>
+                    <div>バックエンド</div>
+                    <div>フロントエンド</div>
+                </div>
+            </div>
+        </div>
+        <div id="idCareea">
+            <div class="classTitle">CAREEA</div>
+            <div id="idCareeaArea">
+                <div class="classCareerBox">
+                    <div class="classDateCircle">2017/04</div>
+                    <div class="classMsgCircle1">札幌光星中学校 入学</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircle">2020/04</div>
+                    <div class="classMsgCircle1">札幌光星高校 入学</div>
+                    <div class="classMsgCircle2">素晴らしい先生やカトリックなどの文化に触れて、後の人生観に影響を与える</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">09</div>
+                    <div class="classMsgCircle1">Tor Projectに参加</div>
+                    <div class="classMsgCircle2">Torブラウザー(OpenSorce)の日本語翻訳活動に参加</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">11</div>
+                    <div class="classMsgCircle1">ホームページ 作成</div>
+                    <div class="classMsgCircle2">e-sport team LACIMA Webサイト作成（更新終了）</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircle">2021/08</div>
+                    <div class="classMsgCircle1">42Tokyo 入学試験 合格</div>
+                    <div class="classMsgCircle2">1ヶ月間にも及ぶ入学試験「Piscine」をクリアして、合格<br>42Tokyo入学試験「Piscine」とは → <a target="_blank" href="https://42tokyo.jp/curriculum/">https://42tokyo.jp/curriculum/</a></div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">09</div>
+                    <div class="classMsgCircle1">高校 中退</div>
+                    <div class="classMsgCircle2">42Tokyoへコミットするために、札幌光星高校を中退</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">09</div>
+                    <div class="classMsgCircle1">Twitter バズる</div>
+                    <div class="classMsgCircle2">APEXに関するツイートをしたらバズって、SNSの影響力を知る</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">10</div>
+                    <div class="classMsgCircle1">42Tokyo 入学</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">12</div>
+                    <div class="classMsgCircle1">ホームページ 作成</div>
+                    <div class="classMsgCircle2">e-sport team Rabbit in Lunar Webサイト作成（更新終了）</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircle">2022/04</div>
+                    <div class="classMsgCircle1">札幌大通高校 編入</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">04</div>
+                    <div class="classMsgCircle1">LabPixel Frameworkds 設立</div>
+                    <div class="classMsgCircle2">個人事業「LabPixel Frameworks」を設立して、代表になる</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">04</div>
+                    <div class="classMsgCircle1">LITE inc. 業務受託</div>
+                    <div class="classMsgCircle2">LITE inc. にてプログラマー、エンジニアとして業務を受託</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">05</div>
+                    <div class="classMsgCircle1">インタビュー記事 掲載</div>
+                    <div class="classMsgCircle2">42Tokyoの学生インタビュー記事に掲載される</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircleMonth">05</div>
+                    <div class="classMsgCircle1">42Tokyo 休学</div>
+                </div>
+                <div class="classCareerBox">
+                    <div class="classDateCircle">Future</div>
+                    <div class="classMsgCircle1">未来にワクワクして生きよう！</div>
+                </div>
+            </div>
+        </div>
+        <div id="idGalary">
+            <div class="classTitle">GALARY</div>
+            <div class="classGalaryBox">
+                <div class="classBoxTitle">Rabbit in Lunar ホームページ</div>
+                <a target="_blank" href="https://ayato-shitomi.github.io/ril/" class="classBoxURL">クリックで表示</a>
+                <div class="classBoxMsg">Apex Legendsクラン「Rabbit in Lunar」の公式サイトを作成<br>活発でミステリアスなクランの雰囲気を表現</div>
+            </div>
+            <div class="classGalaryBox">
+                <div class="classBoxTitle">ブロック崩しゲーム</div>
+                <a target="_blank" href="https://ayato-shitomi.github.io/web/brock/index.html" class="classBoxURL">クリックで表示</a>
+                <div class="classBoxMsg">ブロック崩しゲームのWebアプリを作成<br>ちょっとだけ難しい</div>
+            </div>
+        </div>
+        <div id="idContact">
+            <div class="classTitle">CONTACT</div>
+            <div id="idSNSArea">
+                <button class="classSNSButton" id="idButtonTwitter" onclick="window.open('https://twitter.com/AyatoShitomi/' + location.search)"></button>
+                <button class="classSNSButton" id="idButtonGit" onclick="window.open('https://github.com/ayato-shitomi' + location.search)"></button>
+                <button class="classSNSButton" id="idButtonInstagram" onclick="window.open('https://www.instagram.com/ayato_shitomi/' + location.search)"></button>
+            </div>
+        </div>
+
+        <footer>
+            <div>Copyright &copy; 2022 Ayato Shitomi All rights reserved.</div>
+        </footer>
+    </body>
+</html>
