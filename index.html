@@ -12,14 +12,16 @@
         </header>
 
         <script>
-            function isSmartPhone() {
-                if (navigator.userAgent.match(/iPhone|Android.+Mobile/)) {
-                    open("./moblile.html", "_blank");
+            function isSmartPhone(){
+                if (navigator.userAgent.match(/iPhone|Android.+Mobile/)){
+                    document.location = "./mobile.html";
+                    return 0;
                 }
-                return ;
+                return 0;
             }
             isSmartPhone();
         </script>
+
         <div id="idIntroduce">
             <div class="classTitle">INTRODUCE</div>
             <div id="idIntroduceArea">
