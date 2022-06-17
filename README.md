@@ -33,7 +33,7 @@ https://ayato-shitomi.github.io/portfolio/
 `index.html`
 ```js
 <script>
-    //自身の生年月日の設定
+    // 自身の生年月日の設定
     const birthday = {
         year: 2004,
         month: 11,
