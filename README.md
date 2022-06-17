@@ -6,6 +6,31 @@ https://ayato-shitomi.github.io/portfolio/
 
 # 技術的解説
 
+## ファイル階層
+
+```
+/home/ubuntu/Git_Web/portfolio
+|
+|--README.md
+|--index.css
+|--index.html
+|
+|--js
+|  |--mobileRedirect.js
+|  |--putAge.js
+|
+|--mobile.html
+|
+|--srcs
+|  |--LabPixel.png
+|  |--git.png
+|  |--git_hover.png
+|  |--instagram.png
+|  |--instagram_hover.png
+|  |--twitter.png
+|  |--twitter_hover.png
+```
+
 ## **モバイル**対応
 
 モバイル対応するための遷移を以下のスクリプトによって実現してます。  
