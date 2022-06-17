@@ -39,7 +39,7 @@ https://ayato-shitomi.github.io/portfolio/
         month: 11,
         date: 24
     };
-
+    
     // 生年月日を計算する関数
     function getAge(birthday){
         var today = new Date();
