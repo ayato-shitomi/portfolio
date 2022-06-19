@@ -198,6 +198,7 @@ footer {
     align-items: flex-start;
     margin: 0 auto;
     padding: 0 40 40 40;
+    font-size: 25;
 }
 #idLanguage {
     display: inline-block;
@@ -218,5 +219,4 @@ footer {
     font-size: 40;
     padding: 20 0 0 0;
     letter-spacing: 5;
-
 }

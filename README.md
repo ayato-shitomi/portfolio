@@ -14,12 +14,11 @@ https://ayato-shitomi.github.io/portfolio/
 |--README.md
 |--index.css
 |--index.html
+|--mobile.html
 |
 |--js
 |  |--mobileRedirect.js
 |  |--putAge.js
-|
-|--mobile.html
 |
 |--srcs
 |  |--LabPixel.png
