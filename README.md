@@ -22,6 +22,7 @@ https://ayato-shitomi.github.io/portfolio/
 |
 |--srcs
 |  |--LabPixel.png
+|  |--favicon.ico
 |  |--git.png
 |  |--git_hover.png
 |  |--instagram.png
