@@ -39,11 +39,11 @@ https://ayato-shitomi.github.io/portfolio/
 `mobileRedirect.js`
 ```js
 function isSmartPhone(){
-    if (navigator.userAgent.match(/iPhone|Android.+Mobile/)){
-        document.location = "./mobile.html";
-        return 0;
-    }
-    return 0;
+	if (navigator.userAgent.match(/iPhone|Android.+Mobile/)){
+		document.location = "./mobile.html";
+		return 0;
+	}
+	return 0;
 }
 isSmartPhone();
 ```
@@ -57,30 +57,30 @@ isSmartPhone();
 ```js
 // 自身の生年月日の設定
 const birthday = {
-    year: 2004,
-    month: 11,
-    date: 24
+	year: 2004,
+	month: 11,
+	date: 24
 };
 
 // 生年月日を計算する関数
 function getAge(birthday){
-    var today = new Date();
-    var thisYearsBirthday = new Date(today.getFullYear(), birthday.month-1, birthday.date);
-    var age = today.getFullYear() - birthday.year;
-    if(today < thisYearsBirthday){
-        age--;
-    }
-    return age;
+	let today = new Date();
+	let thisYearsBirthday = new Date(today.getFullYear(), birthday.month-1, birthday.date);
+	let age = today.getFullYear() - birthday.year;
+	if(today < thisYearsBirthday){
+		age--;
+	}
+	return age;
 }
 // div要素を自動的に作成
-var elmAge = document.createElement("div");
+let elmAge = document.createElement("div");
 // テキストノードを作成
 // 「(年齢)」の形になるように上で作った関数から年齢を取得
-var cntAge = document.createTextNode("(" + getAge(birthday) + ")");
+let cntAge = document.createTextNode("(" + getAge(birthday) + ")");
 // 作成したdiv要素に年齢を入れる
 elmAge.appendChild(cntAge);
 elmAge.setAttribute("id","idMyAge");
-var parentDiv = document.getElementById("idIconAndName");
+let parentDiv = document.getElementById("idIconAndName");
 parentDiv.appendChild(elmAge);
 ```
 
@@ -94,34 +94,34 @@ parentDiv.appendChild(elmAge);
 `index.html`
 ```html
 <div class="classCareerBox">
-    <div class="classDateCircle">2020/04</div>
-    <div class="classMsgCircle1">札幌光星高校 入学</div>
-    <div class="classMsgCircle2">素晴らしい先生やカトリックなどの文化に触れて、後の人生観に影響を与える</div>
+	<div class="classDateCircle">2020/04</div>
+	<div class="classMsgCircle1">札幌光星高校 入学</div>
+	<div class="classMsgCircle2">素晴らしい先生やカトリックなどの文化に触れて、後の人生観に影響を与える</div>
 </div>
 <div class="classCareerBox">
-    <div class="classDateCircleMonth">09</div>
-    <div class="classMsgCircle1">Tor Projectに参加</div>
-    <div class="classMsgCircle2">Torブラウザー(OpenSorce)の日本語翻訳活動に参加</div>
+	<div class="classDateCircleMonth">09</div>
+	<div class="classMsgCircle1">Tor Projectに参加</div>
+	<div class="classMsgCircle2">Torブラウザー(OpenSorce)の日本語翻訳活動に参加</div>
 </div>
 ```
 `index.css`
 ```css
 .classDateCircle {
-    border-radius: 50%;
-    background-color: rgba(195, 230, 250, 0.884);
-    width: 90px;
-    height: 90px;
-    text-align: center;
-    line-height: 90px;
+	border-radius: 50%;
+	background-color: rgba(195, 230, 250, 0.884);
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
 }
 .classDateCircleMonth {
-    border-radius: 50%;
-    background-color: rgba(195, 230, 250, 0.884);
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    margin: 20 20 20 20;
+	border-radius: 50%;
+	background-color: rgba(195, 230, 250, 0.884);
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 20 20 20 20;
 }
 ```
 
@@ -134,12 +134,12 @@ parentDiv.appendChild(elmAge);
 `index.css`
 ```css
 .classBoxURL {
-    text-decoration: none;
-    border-bottom: 3px solid black;
-    color: black;
+	text-decoration: none;
+	border-bottom: 3px solid black;
+	color: black;
 }
 .classBoxURL:hover {
-    border-bottom: 3px solid orangered;
+	border-bottom: 3px solid orangered;
 }
 ```
 
@@ -159,18 +159,18 @@ IDではホバーされた際に`background`の`url`を変更することによ�
 `index.css`
 ```css
 .classSNSButton {
-    padding: 80;
-    margin: 40;
-    border: none;
+	padding: 80;
+	margin: 40;
+	border: none;
 }
 #idButtonTwitter {
-    background: url(srcs/twitter.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
+	background: url(srcs/twitter.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 #idButtonTwitter:hover {
-    background: url(srcs/twitter_hover.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
+	background: url(srcs/twitter_hover.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 ```
