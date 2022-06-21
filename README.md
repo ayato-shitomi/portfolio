@@ -152,61 +152,61 @@ const careea = [
 ];
 
 function outPutCareea(dataSet){
-	//	親要素を取得
+	// 親要素を取得
 	let parent = document.getElementById("idCareeaArea");
 	dataSet.forEach(item => {
-		//	Boxを作成してすべてこの下に入れる
+		// Boxを作成してすべてこの下に入れる
 		let divBox = document.createElement("div");
 		divBox.className = "classCareerBox";
 
-		//	日時を描く円を作成
+		// 日時を描く円を作成
 		let	divCircle = document.createElement("div");
 		if (item.date == "Future") {
 			divCircle.className = "classDateCircle";
 		} else if (item.date[4] == "/") {
-			//	日時の5文字目がバックスラッシュの場合は
-			//	「年/月」表示なので大きい円のクラスを当てる
+			// 日時の5文字目がバックスラッシュの場合は
+			// 「年/月」表示なので大きい円のクラスを当てる
 			divCircle.className = "classDateCircle";
 		} else {
-			//	それ以外は小さい円のクラスを当てる
+			// それ以外は小さい円のクラスを当てる
 			divCircle.className = "classDateCircleMonth";
 		}
 		divCircle.innerText = item.date;
-		//	Boxの子要素にする
+		// Boxの子要素にする
 		divBox.appendChild(divCircle);
 
-		//	タイトルを入れる要素を作る
+		// タイトルを入れる要素を作る
 		let	divMsg1 = document.createElement("div");
 		divMsg1.className = "classMsgCircle1";
 		divMsg1.innerText = item.msg1;
 		divBox.appendChild(divMsg1);
 
-		//	もし、説明文があるなら
+		// もし、説明文があるなら
 		if (item.msg2) {
-			//	説明文を入れる要素を作る
+			// 説明文を入れる要素を作る
 			let divMsg2 = document.createElement("div");
 			divMsg2.className = "classMsgCircle2";
 			divMsg2.innerText = item.msg2;
-			//	Boxの子要素にする
+			// Boxの子要素にする
 			divBox.appendChild(divMsg2);
 		}
 
-		//	もし、URLがあるなら
+		// もし、URLがあるなら
 		if (item.urls) {
-			//	URLを入れるAタグを作る
+			// URLを入れるAタグを作る
 			let	a = document.createElement("a");
-			//	ターゲットをブランクにする
+			// ターゲットをブランクにする
 			a.target = "_blank";
 			a.href = item.urls;
-			//	URLのテキストはカッコで囲った「item.urlT」を使う
+			// URLのテキストはカッコで囲った「item.urlT」を使う
 			a.innerText = "(" + item.urlT + ")";
-			//	ホバー時にオレンジにするためクラスを当てる
+			// ホバー時にオレンジにするためクラスを当てる
 			a.className = "myBoxURL";
-			//	Boxの子要素にする
+			// Boxの子要素にする
 			divBox.appendChild(a);
 		}
 
-		//	Boxを最初に取得した「parent」の子要素にする
+		// Boxを最初に取得した「parent」の子要素にする
 		parent.appendChild(divBox);
 	});
 }
