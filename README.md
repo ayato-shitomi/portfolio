@@ -11,14 +11,11 @@ https://ayato-shitomi.github.io/portfolio/
 ```
 /home/ubuntu/Git_Web/portfolio
 |
-|--README.md
-|--index.css
-|--index.html
-|--mobile.html
-|
 |--js
 |  |--mobileRedirect.js
 |  |--putAge.js
+|  |--putIdLanguage.js
+|  |--putIdMajor.js
 |
 |--srcs
 |  |--LabPixel.png
@@ -29,6 +26,11 @@ https://ayato-shitomi.github.io/portfolio/
 |  |--instagram_hover.png
 |  |--twitter.png
 |  |--twitter_hover.png
+|
+|--README.md
+|--index.css
+|--index.html
+|--mobile.html
 ```
 
 ## **モバイル**対応
