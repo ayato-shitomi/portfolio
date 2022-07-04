@@ -225,3 +225,14 @@ footer {
 	padding: 20 0 0 0;
 	letter-spacing: 5;
 }
+
+#idMail {
+	padding: 20;
+	font-size: 20;
+	display: flex;
+	align-items: flex;
+	margin: 10 auto;
+}
+#idAddress {
+	color: dimgray;
+}

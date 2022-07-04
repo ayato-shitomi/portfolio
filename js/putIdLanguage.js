@@ -10,7 +10,8 @@ const	language = [
 	"PHP",
 	"Ruby",
 	"Ruby on Rails",
-	"VBS"
+	"VBS",
+	"Brain Fuck"
 ];
 
 function outPutDataset(dataSet, id) {
