@@ -78,6 +78,7 @@ function print_year(max) {
 	for (var item of data) {
 		var tr = document.createElement("tr");
 		eventStartDay = new Date(item.fDate);
+		console.log(item.index, eventStartDay);
 		eventEndDay = new Date(item.tDate);
 		if (eventStartDay < now) {
 			eventStartDay = new Date();
@@ -90,20 +91,22 @@ function print_year(max) {
 		tr.appendChild(eventName);
 
 		n = thisYear;
-		var count = new Date();
+		var count = new Date(thisYear, 2);
 		console.log(count);
 		while (n < max) {
 			for (var i = 1; i <= 6;) {
 				var q = document.createElement("td");
 				q.innerText = "";
-				if (eventStartDay <= count && count <= eventEndDay) {
+				if ((eventStartDay <= count && count <= eventEndDay)) {
 					//console.log(eventStartDay,"\n",  count,"\n", eventEndDay);
 					q.className = "color";
 				}
-				count.setMonth(count.getMonth() + 2);
 				tr.appendChild(q);
+				//q.innerText = count;
 				i++;
+				count.setMonth(count.getMonth() + 2);
 			}
+			//count.setMonth(count.getMonth() + 2);
 			n++;
 		}
 
