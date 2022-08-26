@@ -16,7 +16,7 @@ data = [
 		tDate: "2023/10/1 00:00:00",
 	},
 	{
-		index: "通信制の大学",
+		index: "University of the People",
 		fDate: "2024/4/1 00:00:00",
 		tDate: "2029/4/1 00:00:00",
 	},
