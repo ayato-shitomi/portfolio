@@ -1,6 +1,6 @@
 const	major = [
 	{
-		major : "git",
+		major : "Git",
 		from_year : 2019,
 		from_month : 4,
 		flag : "y"

@@ -146,9 +146,10 @@ header {
 #idCareea {
 	padding: 10%;
 	background-color: white;
+	text-align: center;
 }
 #idCareeaArea {
-	margin: 100 5% 100 5%;
+	margin: 100 10% 100 10%;
 }
 .classDateCircle {
 	border-radius: 50%;
@@ -247,4 +248,47 @@ footer {
 }
 #idAddress {
 	color: dimgray;
+}
+
+#idCareeaGray {
+	padding: 4%;
+	background-color: lightgray;
+	text-align: center;
+}
+
+#idSiteMap {
+	padding: 3%;
+}
+#idSiteMap > a {
+	margin: 5px;
+	letter-spacing: 2;
+}
+#idFooterCR {
+	font-size: 20;
+}
+
+#idUrlButton {
+	padding: 20;
+	border: 2px solid black;
+}
+#idUrlButton:hover {
+	background-color: lightgrey;
+}
+
+#idCareeaUrl {
+	padding: 5%;
+}
+
+#idMyCareeaState {
+	padding: 50 0 0 80;
+	text-align: left;
+}
+
+.classMyCareea {
+	font-size: 20;
+	letter-spacing: 2;
+}
+
+table {
+	border-spacing: 20px;
 }

@@ -36,7 +36,7 @@ const	language = [
 		flag : "y"
 	},
 	{
-		lang : "node.js",
+		lang : "Node.js",
 		from_year : 2021,
 		from_month : 12,
 		flag : ""
