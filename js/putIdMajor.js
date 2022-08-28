@@ -6,16 +6,10 @@ const	major = [
 		flag : "y"
 	},
 	{
-		major : "Unix",
+		major : "Linux, Unix",
 		from_year : 2019,
 		from_month : 4,
 		flag : "y"
-	},
-	{
-		major : "Linux",
-		from_year : 2019,
-		from_month : 4,
-		flag : ""
 	},
 	{
 		major : "Ubuntu",
@@ -52,12 +46,6 @@ const	major = [
 		from_year : 2022,
 		from_month : 4,
 		flag : "y"
-	},
-	{
-		major : "サーバー構築",
-		from_year : 2022,
-		from_month : 1,
-		flag : ""
 	},
 	{
 		major : "ネットワークセキュリティ",
