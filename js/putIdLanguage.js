@@ -6,6 +6,12 @@ const	language = [
 		flag : "y"
 	},
 	{
+		lang: "Django",
+		from_year: 2022,
+		from_month: 8,
+		flag: ""
+	},
+	{
 		lang :"C",
 		from_year : 2021,
 		from_month : 7,
@@ -64,6 +70,12 @@ const	language = [
 		from_year : 2022,
 		from_month : 5,
 		flag : "y"
+	},
+	{
+		lang : "SQL",
+		from_year: 2022,
+		from_month: 7,
+		flag : ""
 	},
 	{
 		lang : "VBS",
