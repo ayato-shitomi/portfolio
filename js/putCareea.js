@@ -105,6 +105,20 @@ const careea = [
 		"urlT" : ""
 	},
 	{
+		"date" : "9",
+		"msg1" : "セキュリティ勉強会に参加",
+		"msg2" : "セキュリティをゲーム感覚で学べる競技 Micro Hardening for Youth",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
+		"date" : "10",
+		"msg1" : "CTFに参加",
+		"msg2" : "WEST-SEC#10 「8割解けるCTF」",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
 		"date" : "Future",
 		"msg1" : "未来にワクワクして生きよう！",
 		"msg2" : "",
