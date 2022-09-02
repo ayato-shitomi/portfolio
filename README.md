@@ -4,6 +4,11 @@
 以下URLからアクセスできます。<br>
 https://ayato-shitomi.github.io/portfolio/
 
+# ToDo
+
+- モバイル対応
+- README編集
+
 # 技術的解説
 
 ## ファイル階層
