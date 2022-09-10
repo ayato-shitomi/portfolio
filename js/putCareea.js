@@ -106,8 +106,8 @@ const careea = [
 	},
 	{
 		"date" : "9",
-		"msg1" : "セキュリティ勉強会に参加",
-		"msg2" : "セキュリティをゲーム感覚で学べる競技 Micro Hardening for Youth",
+		"msg1" : "Micro Hardeningに参加",
+		"msg2" : "北海道地域情報セキュリティ連絡会 (HAISL) / 北海道大学情報基盤センター　サイバーセキュリティセンター 主催",
 		"urls" : "",
 		"urlT" : ""
 	},
