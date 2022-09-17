@@ -113,6 +113,13 @@ const careea = [
 	},
 	{
 		"date" : "10",
+		"msg1" : "I.T.Lab|CTO",
+		"msg2" : "I.T.Labにて最高技術責任者をする",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
+		"date" : "10",
 		"msg1" : "CTFに参加",
 		"msg2" : "WEST-SEC#10 「8割解けるCTF」",
 		"urls" : "",
