@@ -112,6 +112,13 @@ const careea = [
 		"urlT" : ""
 	},
 	{
+		"date" : "9",
+		"msg1" : "CTFに参加",
+		"msg2" : "SECCON Beginners 2022 札幌",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
 		"date" : "10",
 		"msg1" : "I.T.Lab|CTO",
 		"msg2" : "I.T.Labにて最高技術責任者をする",
