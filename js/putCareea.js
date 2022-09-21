@@ -133,6 +133,13 @@ const careea = [
 		"urlT" : ""
 	},
 	{
+		"date" : "11",
+		"msg1" : "Hardeningに参加",
+		"msg2" : "Hardening Decade 2022 沖縄",
+		"urls" : "https://wasforum.jp/hardening-decade-2022/",
+		"urlT" : "https://wasforum.jp/hardening-decade-2022/"
+	},
+	{
 		"date" : "Future",
 		"msg1" : "未来にワクワクして生きよう！",
 		"msg2" : "",
