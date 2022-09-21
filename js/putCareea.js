@@ -120,7 +120,7 @@ const careea = [
 	},
 	{
 		"date" : "10",
-		"msg1" : "I.T.Lab|CTO",
+		"msg1" : "I.T.Lab｜CTO",
 		"msg2" : "I.T.Labにて最高技術責任者をする",
 		"urls" : "",
 		"urlT" : ""
