@@ -119,6 +119,13 @@ const careea = [
 		"urlT" : ""
 	},
 	{
+		"date" : "9",
+		"msg1" : "LITE Inc. 業務提携終了",
+		"msg2" : "",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
 		"date" : "10",
 		"msg1" : "I.T.Lab｜CTO",
 		"msg2" : "I.T.Labにて最高技術責任者をする",
