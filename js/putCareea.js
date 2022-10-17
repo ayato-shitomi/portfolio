@@ -71,7 +71,7 @@ const careea = [
 	},
 	{
 		"date" : "04",
-		"msg1" : "LabPixel Frameworkds 設立",
+		"msg1" : "LabPixel Frameworks 設立",
 		"msg2" : "個人事業「LabPixel Frameworks」を設立して、代表になる",
 		"urls" : "",
 		"urlT" : ""
