@@ -134,10 +134,24 @@ const careea = [
 	},
 	{
 		"date" : "11",
+		"msg1" : "SmartHotelSolutions インターン",
+		"msg2" : "ホログラムを作る際のテック面を一任されています。",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
+		"date" : "11",
 		"msg1" : "Hardeningに参加",
 		"msg2" : "Hardening Decade 2022 沖縄",
-		"urls" : "https://wasforum.jp/hardening-decade-2022/",
-		"urlT" : "https://wasforum.jp/hardening-decade-2022/"
+		"urls" : "https://qiita.com/LabPixel/items/a2780ded7533405b02a5",
+		"urlT" : "沖縄でのセキュリティ大会Hardeningに行ってきた"
+	},
+	{
+		"date" : "12",
+		"msg1" : "CyberAgent, Inc. 入社決定",
+		"msg2" : "2024年4月〜",
+		"urls" : "",
+		"urlT" : ""
 	},
 	{
 		"date" : "Future",
