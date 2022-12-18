@@ -13,6 +13,7 @@ function getAge(birthday){
 	}
 	return age;
 }
+
 let elmAge = document.createElement("div");
 let cntAge = document.createTextNode("(" + getAge(birthday) + ")");
 elmAge.appendChild(cntAge);
