@@ -134,7 +134,7 @@ const careea = [
 	},
 	{
 		"date" : "11",
-		"msg1" : "SmartHotelSolutions インターン",
+		"msg1" : "Smart Hotel Solutions インターン",
 		"msg2" : "ホログラムを作る際のテック面を一任されています。",
 		"urls" : "",
 		"urlT" : ""

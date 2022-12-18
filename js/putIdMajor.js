@@ -48,6 +48,12 @@ const	major = [
 		flag : "y"
 	},
 	{
+		major : "Docker",
+		from_year : 2022,
+		from_month : 11,
+		flag : ""
+	},
+	{
 		major : "ネットワークセキュリティ",
 		from_year : 2020,
 		from_month : 4,
