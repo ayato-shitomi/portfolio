@@ -4,40 +4,7 @@
 以下URLからアクセスできます。<br>
 https://ayato-shitomi.github.io/portfolio/
 
-# ToDo
-
-- モバイル対応
-- README編集
-
 # 技術的解説
-
-## ファイル階層
-
-```
-/home/ubuntu/Git_Web/portfolio
-|
-|--js
-|  |--mobileRedirect.js
-|  |--putAge.js
-|  |--putCareea.js
-|  |--putIdLanguage.js
-|  |--putIdMajor.js
-|
-|--srcs
-|  |--LabPixel.png
-|  |--favicon.ico
-|  |--git.png
-|  |--git_hover.png
-|  |--instagram.png
-|  |--instagram_hover.png
-|  |--twitter.png
-|  |--twitter_hover.png
-|
-|--README.md
-|--index.css
-|--index.html
-|--mobile.html
-```
 
 ## **モバイル**対応
 
@@ -60,37 +27,6 @@ isSmartPhone();
 
 年齢は常に変化します。<br>
 動的に要素を追加して年齢を表示させることで、余計な更新の手間を省きます。<br>
-
-`putAge.js`
-```js
-// 自身の生年月日の設定
-const birthday = {
-	year: 2004,
-	month: 11,
-	date: 24
-};
-
-// 生年月日を計算する関数
-function getAge(birthday){
-	let today = new Date();
-	let thisYearsBirthday = new Date(today.getFullYear(), birthday.month-1, birthday.date);
-	let age = today.getFullYear() - birthday.year;
-	if(today < thisYearsBirthday){
-		age--;
-	}
-	return age;
-}
-// div要素を自動的に作成
-let elmAge = document.createElement("div");
-// テキストノードを作成
-// 「(年齢)」の形になるように上で作った関数から年齢を取得
-let cntAge = document.createTextNode("(" + getAge(birthday) + ")");
-// 作成したdiv要素に年齢を入れる
-elmAge.appendChild(cntAge);
-elmAge.setAttribute("id","idMyAge");
-let parentDiv = document.getElementById("idIconAndName");
-parentDiv.appendChild(elmAge);
-```
 
 ## キャリア部分の**未来へつながる**デザイン
 
