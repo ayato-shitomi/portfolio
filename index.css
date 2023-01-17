@@ -75,12 +75,12 @@ header {
 	border: none;
 }
 #idButtonTwitter {
-	background: url(srcs/twitter.png) no-repeat;
+	background: url(srcs/twitter_hover.png) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 #idButtonTwitter:hover {
-	background: url(srcs/twitter_hover.png) no-repeat;
+	background: url(srcs/twitter.png) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -101,6 +101,16 @@ header {
 }
 #idButtonInstagram:hover {
 	background: url(srcs/instagram_hover.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+#idButtonWantedly {
+	background: url(srcs/wantedlye9.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+#idButtonWantedly:hover {
+	background: url(srcs/favicon.png) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
