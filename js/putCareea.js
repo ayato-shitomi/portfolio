@@ -155,7 +155,7 @@ const careea = [
 	},
 	{
 		"date" : "2023/01",
-		"msg1" : "8割解けるCTFに参加",
+		"msg1" : "WestSEC#11 8割解けるCTF 優勝",
 		"msg2" : "",
 		"urls" : "",
 		"urlT" : ""
