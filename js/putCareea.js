@@ -169,6 +169,13 @@ const careea = [
 	},
 	{
 		"date" : "02",
+		"msg1" : "Speed Dating CTF 2023 3位",
+		"msg2" : "",
+		"urls" : "",
+		"urlT" : ""
+	},
+	{
+		"date" : "02",
 		"msg1" : "CYBERGYM イスラエルツアー2023に参加",
 		"msg2" : "日本人ハッカーとしてイスラエルに赴きました",
 		"urls" : "",
