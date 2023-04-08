@@ -126,13 +126,6 @@ const careea = [
 		"urlT" : ""
 	},
 	{
-		"date" : "10",
-		"msg1" : "CTFに参加",
-		"msg2" : "WEST-SEC#10 「8割解けるCTF」",
-		"urls" : "",
-		"urlT" : ""
-	},
-	{
 		"date" : "11",
 		"msg1" : "Smart Hotel Solutions インターン",
 		"msg2" : "ホログラムを作る際のテック面を一任されています。",
