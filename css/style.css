@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'Modern DOS';
+    src: url('./../modern_dos/ModernDOS8x16.ttf') format('truetype');
+}
+
+body {
+    padding: 2%;
+    background-color: black;
+    color: rgb(0, 255, 0);
+    letter-spacing: 2px;
+    font-family: 'Modern DOS';
+    font-size:larger;
+}
+
+table {
+    padding: 0 0 0 40;
+}
+
+td {
+    padding: 5px;
+    font-size: larger;
+}
+
+h1, h2, h3 {
+    letter-spacing: 2px;
+}
+
+h1 {
+    border-bottom: 4px solid rgb(58, 58, 58);
+}
+
+li {
+    padding: 4px;
+}
+
+a {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+h1:hover,h2:hover,h3:hover,td:hover,li:hover,a:hover {
+    color: rgb(255, 255, 255);
+}
