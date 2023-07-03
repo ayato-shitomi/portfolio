@@ -1,7 +1,7 @@
 # Ayato Shitomi
 
 - Japan
-- Founder of <a href="https://beginnerssec.com/">BeginnersSec</a>
+- Founder of <a href="https://beginnerssec.com/" target="_blank">BeginnersSec</a>
 - Founder of LabPixel Frameworks
 - Pentester, RedTeam
 
