@@ -59,7 +59,7 @@ function convertTextToHTML(text) {
 					html += `<table><tr><td>${line.slice(2).split(", ")[0]}</td><td></td><td>${line.slice(2).split(", ")[1]}</td></tr>`;
 				}
 			} else {
-				if (currentTag == "li") {
+				if (currentTag == "table") {
 					html += `<li>${line.slice(2).split(", ")[0]} ${line.slice(2).split(", ")[1]}</li>`;
 				} else {
 					html += `<ul><li>${line.slice(2).split(", ")[0]} ${line.slice(2).split(", ")[1]}</li>`;
