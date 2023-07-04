@@ -43,3 +43,7 @@ a {
 h1:hover,h2:hover,h3:hover,td:hover,li:hover,a:hover {
     color: rgb(255, 255, 255);
 }
+
+body > .penguin {
+    item-align: right;
+}
