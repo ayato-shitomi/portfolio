@@ -3,7 +3,6 @@
 - Born in Sapporo, Japan
 - Founder of <a href="https://beginnerssec.com/" target="_blank">BeginnersSec</a>
 - Founder of LabPixel Frameworks
-- 北海道大学 HUIT
 - Pentester, RedTeam
 
 # Career
