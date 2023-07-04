@@ -36,6 +36,7 @@
 | JerseyCTF 2023,           137th
 | RICERCA CTF 2023,         65th
 | picoCTF 2023 高校生部門,   🥈
+| CyberGym CTF,             🥇
 | WaniCTF 2023,             14th
 | SECCON Beginners 2023,    183th
 | UIUCTF 2023,              109th
