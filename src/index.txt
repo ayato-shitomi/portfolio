@@ -69,7 +69,7 @@
 - Hardening DECADE 2022 OKINAWA
 - SC4Y('23#1) BlueTeam演習+セキュアコーディング+Chobi Hardening
 - SC4Y('23#2) Micro Hardening Basic
-- Sec Camp 2023
+- セキュリティ・キャンプ全国大会2023
 
 # SNS
 
