@@ -23,6 +23,7 @@
 - OSINT
 - DarkWeb
 - RedTeam, BlueTeam Operation
+- Japanese, English
 
 # Achievement
 
@@ -58,6 +59,10 @@
 
 - <a href="https://twitter.com/AyatoShitomi/status/1667799093706633217" target="_blank">Twitter: ハッキング対応を学ぶ の記事</a>
 
+## HBC北海道放送 北のビジネス最前線
+
+- Comming soon...
+
 # Event
 
 - Micro Hardening for Youth 2022
@@ -72,3 +77,4 @@
 - <a href="https://twitter.com/AyatoShitomi" target="_blank">Twitter</a>
 - <a href="https://www.instagram.com/ayato_shitomi/" target="_blank">Instagram</a>
 - <a href="https://www.wantedly.com/id/ayato_shitomi" target="_blank">Wantedly</a>
+- <a href="https://qiita.com/LabPixel/" target="_blank">Qiita</a>
