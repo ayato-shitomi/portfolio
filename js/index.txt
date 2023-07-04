@@ -1,0 +1,73 @@
+
+- Japan
+- Founder of <a href="https://beginnerssec.com/" target="_blank">BeginnersSec</a>
+- Founder of LabPixel Frameworks
+- Pentester, RedTeam
+
+# Career
+
+| 2017/04 ~ 2021/09,    Sapporo Kosei J.H-School
+| 2022/04 ~ 2022/10,    Backend Engineer @ LITE Inc
+| 2021/08 ~ ,           42Toyo
+| 2022/04 ~ 2024/03,    Sapporo Odori H-School
+| 2022/09 ~ 2023/07,    プログラミング講師 @ 株式会社イノベイト 札幌
+| 2022/10 ~ 2023/03,    CTO @ I.T.LAB
+| 2022/11 ~ ,           CyberSecurity Hologram @ Smart Hotel Solutions
+| 2023/05 ~ ,           Cybersecurity Engineer @ 株式会社 網屋
+
+# Major
+
+- Linux
+- Web
+- OSINT
+- DarkWeb
+- RedTeam, BlueTeam Operation
+
+# Achievement
+
+## CTF
+
+| West-Sec 8割解けるCTF,     🥇
+| Speed Dating CTF 2023,    🥉
+| DamCTF 2023,              50th
+| HackPackCTF 2023,         67th
+| JerseyCTF 2023,           137th
+| RICERCA CTF 2023,         65th
+| picoCTF 2023 高校生部門,    🥈
+| WaniCTF 2023,             14th
+| SECCON Beginners 2023,    183th
+| UIUCTF 2023,              109th
+
+## HackTheBox
+
+- Reach the "Hacker Rank" in May 30, 2023
+
+# Media
+
+### 42Tokyo学生インタビュー
+
+- <a href="https://note.42tokyo.jp/n/naf350a626f45" target="_blank">映画で観たハッカーに憧れて。高校を中退し、札幌から好きなことに全力で打ち込む10代の肖像</a>
+
+### 日経新聞
+
+- <a href="https://www.nikkei.com/article/DGXZQOUC291WB0Z20C23A3000000/" target="_blank">さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
+- <a href="https://twitter.com/AyatoShitomi/status/1648199926201950208" target="_blank">Twitter: さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
+
+### 北海道新聞
+
+- <a href="https://twitter.com/AyatoShitomi/status/1667799093706633217" target="_blank">ハッキング対応を学ぶ</a>
+
+# Event
+
+- Micro Hardening for Youth 2022
+- Hardening DECADE 2022 OKINAWA
+- SC4Y('23#1) BlueTeam演習+セキュアコーディング+Chobi Hardening
+- SC4Y('23#2) Micro Hardening Basic
+- Sec Camp 2023
+
+# SNS
+
+- <a href="https://github.com/ayato-shitomi" target="_blank">GitHub</a>
+- <a href="https://twitter.com/AyatoShitomi" target="_blank">Twitter</a>
+- <a href="https://www.instagram.com/ayato_shitomi/" target="_blank">Instagram</a>
+- <a href="https://www.wantedly.com/id/ayato_shitomi" target="_blank">Wantedly</a>
