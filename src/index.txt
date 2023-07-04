@@ -11,10 +11,10 @@
 | 2022/04 ~ 2022/10,    Backend Engineer @ LITE Inc
 | 2021/08 ~ ,           42Toyo
 | 2022/04 ~ 2024/03,    Sapporo Odori H-School
-| 2022/09 ~ 2023/07,    プログラミング講師 @ 株式会社イノベイト 札幌
+| 2022/09 ~ 2023/07,    Programming Instructor @ 株式会社イノベイト札幌
 | 2022/10 ~ 2023/03,    CTO @ I.T.LAB
-| 2022/11 ~ ,           CyberSecurity Hologram @ Smart Hotel Solutions
-| 2023/05 ~ ,           Cybersecurity Engineer @ 株式会社 網屋
+| 2022/11 ~ ,           CyberSecurity HologramDevelop @ Smart Hotel Solutions
+| 2023/05 ~ ,           Cybersecurity Engineer @ 株式会社網屋
 
 # Major
 
