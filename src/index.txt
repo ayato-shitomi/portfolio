@@ -29,18 +29,18 @@
 
 ## CTF
 
-| West-Sec 8割解けるCTF,     🥇
-| Speed Dating CTF 2023,    🥉
-| DamCTF 2023,              50th
-| HackPackCTF 2023,         67th
-| JerseyCTF 2023,           137th
-| RICERCA CTF 2023,         65th
-| picoCTF 2023 高校生部門,   🥈
-| CyberGym CTF,             🥇
-| WaniCTF 2023,             14th
-| SECCON Beginners 2023,    183th
-| UIUCTF 2023,              109th
-| SC4Y('23#2) Micro Hardening Basic, 🥇
+| West-Sec 8割解けるCTF,               🥇
+| Speed Dating CTF 2023,              🥉
+| DamCTF 2023,                        50th
+| HackPackCTF 2023,                   67th
+| JerseyCTF 2023,                     137th
+| RICERCA CTF 2023,                   65th
+| picoCTF 2023 高校生部門,             🥈
+| CyberGym CTF,                       🥇
+| WaniCTF 2023,                       14th
+| SECCON Beginners 2023,              183th
+| UIUCTF 2023,                        109th
+| SC4Y('23#2) Micro Hardening Basic,  🥇
 
 ## HackTheBox
 
