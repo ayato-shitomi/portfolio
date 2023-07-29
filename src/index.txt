@@ -23,10 +23,12 @@ My field of expertise is penetration testing now.
 
 # Major
 
+- 0day attacks
 - Linux
 - Web
 - OSINT
 - DarkWeb
+- Forensic
 - RedTeam, BlueTeam Operation
 - Japanese, English
 
