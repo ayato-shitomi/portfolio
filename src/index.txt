@@ -19,6 +19,7 @@ My field of expertise is penetration testing now.
 | 2022/10 ~ 2023/03,    CTO @ I.T.LAB
 | 2022/11 ~ ,           CyberSecurity HologramDevelop @ Smart Hotel Solutions
 | 2023/05 ~ ,           Cybersecurity Engineer @ 株式会社網屋
+| 2023/09 ~ ,           Cybersecirotu Teacher @ Duy Tan University
 | 2024/04 ~ ,           Penetration tester @ A certain company
 
 # Major
@@ -71,6 +72,10 @@ My field of expertise is penetration testing now.
 ### HBC北海道放送 北のビジネス最前線
 
 - <a href="https://youtu.be/JuBvB2gMH-E?t=248" target="_blank">YouTube: 北のビジネス最前線 株式会社網屋 から</a>
+
+### DaNang TV: Duy Tan University
+
+- <a href="http://www.drt.danang.vn/truyen_hinh-123100-184" target="_blank">DaNang TV</a>
 
 # Event
 
