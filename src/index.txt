@@ -49,6 +49,8 @@ My field of expertise is penetration testing now.
 | SECCON Beginners 2023,              183th
 | UIUCTF 2023,                        109th
 | SC4Y('23#2) Micro Hardening Basic,  🥇
+| SECCON 2023 Quals Domestic,         14th
+| SECCON 2023 Quals ,                 51th
 
 ## HackTheBox
 
