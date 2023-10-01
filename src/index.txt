@@ -2,7 +2,7 @@
 
 My career was started when I'm 17 years old as a backed engineer.
 After working for some benture companies, I became a CTO and participated in launch of a new business.
-My field of expertise is penetration testing now.
+My field of expertise is penetration testing and DarkWeb reserching.
 
 - Born in Sapporo, Japan
 - Founder of <a href="https://beginnerssec.com/" target="_blank">BeginnersSec</a>
