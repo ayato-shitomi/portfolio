@@ -51,6 +51,7 @@ My field of expertise is penetration testing now.
 | SC4Y('23#2) Micro Hardening Basic,  🥇
 | SECCON 2023 Quals Domestic,         14th
 | SECCON 2023 Quals ,                 51th
+| West-Sec 8割解けるCTF,               4th
 
 ## HackTheBox
 
