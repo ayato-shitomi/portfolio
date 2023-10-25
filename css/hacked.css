@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(44, 44, 44);
+	margin: 3%;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+#title {
+	color: red;
+	font-size: bold;
+}
+
+#exp {
+	background-color: white;
+	padding: 2%;
+}
+
+#text {
+	color: rgb(44, 44, 44);
+}
