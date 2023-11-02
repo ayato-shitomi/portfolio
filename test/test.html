@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>デモ用サイト</title>
+	</head>
+
+	<body>
+		<h1>今日のニュース</h1>
+		<div>
+			<div id="output"></div>
+			<script>
+				const names = ["たかしほ", "みやうち", "おだ", "おの", "しとみ"];
+				const places = ["白山", "オフィス", "家", "カフェ", "焼津ポーターズ", "アフガニスタン"];
+				const verbs = ["鼻をかんだ", "走った", "買い物をした", "お風呂に入った", "叫んだ", "ハッキングをした", "持ち上げた"];
+				const outputElement = document.getElementById("output");
+		
+				function generateRandomSentence() {
+					const randomName = names[Math.floor(Math.random() * names.length)];
+					const randomPlace = places[Math.floor(Math.random() * places.length)];
+					const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+					const sentence = `${randomName}が${randomPlace}で${randomVerb}。`;
+					const paragraph = document.createElement("p");
+					paragraph.textContent = sentence;
+					outputElement.appendChild(paragraph);
+				}
+				for (let i = 0; i < 5; i++) {
+					generateRandomSentence();
+				}
+			</script>
+		</div>
+	</body>
+</html>
