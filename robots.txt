@@ -1,1 +1,3 @@
 Disallow: /hacked.html
+Disallow: /test.html
+Disallow: /test/*
