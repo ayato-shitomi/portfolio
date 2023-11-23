@@ -13,6 +13,7 @@
 		<div id="root">
 			<script>
 				function waf(str) {
+					if (!str) return "";
 					blacklist = ["script", "javascript"];
 					for (let i = 0; i < blacklist.length; i++) {
 						const r = blacklist[i];						

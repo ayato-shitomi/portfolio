@@ -13,6 +13,7 @@
 		<div id="root">
 			<script>
 				function waf(str) {
+					if (!str) return "";
 					blacklist = ["script", "javascript"];
 					str = str.toLowerCase(str);
 					for (let i = 0; i < blacklist.length; i++) {
