@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>XSS Demo</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>XSS体験用デモサイト 上級編</h1>
+		</header>
+		<div id="root">
+			<script>
+				function waf(str) {
+					blacklist = ["script", "javascript"];
+					str = str.toLowerCase(str);
+					for (let i = 0; i < blacklist.length; i++) {
+						const r = blacklist[i];				
+						str = str.replace(new RegExp(r, 'g'), '');
+						console.log(i, r,str);
+					}
+					return str;
+				}
+
+				let url = new URL(window.location.href);
+				let qName = waf(url.searchParams.get("name"));
+				console.log(qName);
+				if (qName) {
+					document.write("<h1>" + qName + " さん、こんにちは！</h1>");
+					document.write("<a href='./easy.html'>もどる</a>");
+				} else {
+					document.write("<h3>もしかして：</h3>");
+					document.write("<a href='./easy.html?name=とりっぴー'>とりっぴー さんですか？</a>");
+					document.write("<a href='./easy.html?name=どらえもん'>どらえもん さんですか？</a>");
+					document.write("<a href='./easy.html?name=あんぱんまん'>あんぱんまん さんですか？</a>");
+				}
+			</script>
+		</div>
+	</body>
+</html>

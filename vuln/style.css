@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: rgb(44, 44, 44);
+}
+
+header {
+	width: 100%;
+	background-color: rgb(189, 189, 189);
+	padding: 2% 1%;
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: rgb(f, f, f);
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	padding: 2%;
+}
+
+a{
+	text-decoration: #ffffff underline 3px;
+	padding: 0.5%;
+}
+
+a:hover{
+	text-decoration: #F58220 underline 3px;
+	padding: 0.5%;
+}
