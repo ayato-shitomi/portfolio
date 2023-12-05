@@ -16,11 +16,13 @@ My field of expertise is penetration testing and DarkWeb reserching.
 | 2021/08 ~ ,           42Tokyo
 | 2022/04 ~ 2024/03,    Sapporo Odori H-School
 | 2022/09 ~ 2023/07,    Programming Instructor @ 株式会社イノベイト札幌
-| 2022/10 ~ 2023/03,    CTO @ I.T.LAB
+| 2022/10 ~ 2023/03,    Chief technology officer @ I.T.LAB
 | 2022/11 ~ ,           CyberSecurity HologramDevelop @ Smart Hotel Solutions
 | 2023/05 ~ ,           Cybersecurity Engineer @ 株式会社網屋
 | 2023/09 ~ ,           Cybersecirotu Teacher @ Duy Tan University
+| 2023/12 ~ ,           Chief technology officer / Chief Information Security Officer @ Beginners Tech
 | 2024/04 ~ ,           Penetration tester @ A certain company
+
 
 # Major
 
