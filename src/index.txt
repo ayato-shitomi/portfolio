@@ -86,6 +86,10 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 - <a href="https://ledge.ai/articles/dtu-series-1" target="_blank">日本初、現役高校生がベトナム有名大学で教壇に！</a>
 
+### IT Media: あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望
+
+- <a href="https://atmarkit.itmedia.co.jp/ait/articles/2311/01/news004.html" target="_blank">あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望</a>
+
 # Event
 
 - Micro Hardening for Youth 2022
