@@ -80,6 +80,10 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 - <a href="http://www.drt.danang.vn/truyen_hinh-123100-184" target="_blank">DaNang TV</a>
 
+### Ledge.ai: 日本初、現役高校生がベトナム有名大学で教壇に！
+
+- <a href="https://ledge.ai/articles/dtu-series-1" target="_blank">日本初、現役高校生がベトナム有名大学で教壇に！</a>
+
 # Event
 
 - Micro Hardening for Youth 2022
