@@ -103,6 +103,8 @@ My field of expertise is penetration testing and DarkWeb reserching.
 - SC4Y('23#1) BlueTeam演習+セキュアコーディング+Chobi Hardening
 - SC4Y('23#2) Micro Hardening Basic
 - セキュリティ・キャンプ全国大会2023
+- Hardening Generative 2023 HOKKAIDO
+- セキュリティ・ミニキャンプ 北海道
 
 # SNS
 
