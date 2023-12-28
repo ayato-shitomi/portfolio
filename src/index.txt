@@ -59,6 +59,11 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 - Reach the "Hacker Rank" in May 30, 2023
 
+# Stage
+
+- <a href="https://prone.jp/press_releases/4501" target="_blank">北海道大学札幌ミライカイギでの登壇</a>
+- <a href="https://itfessp.cloudfree.jp/" target="_blank">SAPPORO JUNIOR IT FESでの登壇</a>
+
 # Media
 
 ### 42Tokyo学生インタビュー
