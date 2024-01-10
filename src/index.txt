@@ -59,6 +59,11 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 - Reach the "Hacker Rank" in May 30, 2023
 
+## BugBounty
+
+- under construction 1
+- under construction 2
+
 # Stage
 
 - <a href="https://sc4y.connpass.com/event/272330/" target="_blank">HAISLサイバーセキュリティセミナーでの登壇</a>
@@ -67,34 +72,14 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 # Media
 
-### 42Tokyo学生インタビュー
-
 - <a href="https://note.42tokyo.jp/n/naf350a626f45" target="_blank">映画で観たハッカーに憧れて。高校を中退し、札幌から好きなことに全力で打ち込む10代の肖像</a>
-
-### 日経新聞
-
-- <a href="https://career.nikkei.com/nikkei-pickup/002541/" target="_blank">さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
-- <a href="https://twitter.com/AyatoShitomi/status/1648199926201950208" target="_blank">Twitter: さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
-
-### 北海道新聞
-
-- <a href="https://twitter.com/AyatoShitomi/status/1667799093706633217" target="_blank">Twitter: ハッキング対応を学ぶ の記事</a>
-
-### HBC北海道放送 北のビジネス最前線
-
-- <a href="https://youtu.be/JuBvB2gMH-E?t=248" target="_blank">YouTube: 北のビジネス最前線 株式会社網屋 から</a>
-
-### DaNang TV: Duy Tan University
-
-- <a href="http://www.drt.danang.vn/truyen_hinh-123100-184" target="_blank">DaNang TV</a>
-
-### Ledge.ai: 日本初、現役高校生がベトナム有名大学で教壇に！
-
-- <a href="https://ledge.ai/articles/dtu-series-1" target="_blank">日本初、現役高校生がベトナム有名大学で教壇に！</a>
-
-### IT Media: あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望
-
-- <a href="https://atmarkit.itmedia.co.jp/ait/articles/2311/01/news004.html" target="_blank">あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望</a>
+- <a href="https://career.nikkei.com/nikkei-pickup/002541/" target="_blank">【日本経済新聞】さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
+- <a href="https://twitter.com/AyatoShitomi/status/1648199926201950208" target="_blank">【日本経済新聞】Twitter: さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
+- <a href="https://twitter.com/AyatoShitomi/status/1667799093706633217" target="_blank">【北海道新聞】Twitter: ハッキング対応を学ぶ の記事</a>
+- <a href="https://youtu.be/JuBvB2gMH-E?t=248" target="_blank">【北海道放送 北のビジネス最前線】YouTube: 北のビジネス最前線 株式会社網屋 から</a>
+- <a href="http://www.drt.danang.vn/truyen_hinh-123100-184" target="_blank">【DaNang TV】News about Duy Tan University</a>
+- <a href="https://ledge.ai/articles/dtu-series-1" target="_blank">【Ledge.ai】日本初、現役高校生がベトナム有名大学で教壇に！</a>
+- <a href="https://atmarkit.itmedia.co.jp/ait/articles/2311/01/news004.html" target="_blank">【＠IT】あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望</a>
 
 # Event
 
