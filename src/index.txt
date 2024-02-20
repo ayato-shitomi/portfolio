@@ -61,8 +61,12 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 ## BugBounty
 
-- under construction 1
-- under construction 2
+- <a href="https://hackerone.com/ayato" target="_blank">HackerOne</a>
+- <a href="https://issuehunt.io/profiles/1e4fac1d-48b8-4d35-9835-023063420cc2" target="_blank">IssueHunt: 5+ vulnerabilities found</a>
+
+## CVE & JVN
+
+- under construction
 
 # Stage
 
