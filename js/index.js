@@ -73,7 +73,7 @@ function convertTextToHTML(text) {
 	return html;
 }
 
-fetch('./src/index.txt')
+fetch('./index.txt')
 	.then(response => response.text())
 	.then(text => {
 		const html = convertTextToHTML(text);
