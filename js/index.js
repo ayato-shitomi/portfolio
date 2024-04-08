@@ -7,6 +7,7 @@ function isSmartPhone() {
 }
 
 
+
 function convertTextToHTML(text) {
 	let html = '';
 	let currentTag = '';
@@ -54,9 +55,9 @@ function convertTextToHTML(text) {
 		} else if (line.startsWith("| ")) {
 			if (mobileFlag == false) {
 				if (currentTag == "table") {
-					html += `<tr><td>${line.slice(2).split(", ")[0]}</td><td></td><td>${line.slice(2).split(", ")[1]}</td></tr>`;
+					html += `<tr><td>${line.slice(3).split(", ")[0]}</td><td> </td><td>${line.slice(3).split(", ")[1]}</td><td>${line.slice(3).split(", ")[2]}</td></tr>`;
 				} else {
-					html += `<table><tr><td>${line.slice(2).split(", ")[0]}</td><td></td><td>${line.slice(2).split(", ")[1]}</td></tr>`;
+					html += `<table><tr><td>${line.slice(3).split(", ")[0]}</td><td> </td><td>${line.slice(3).split(", ")[1]}</td><td>${line.slice(3).split(", ")[2]}</td></tr>`;
 				}
 			} else {
 				if (currentTag == "table") {

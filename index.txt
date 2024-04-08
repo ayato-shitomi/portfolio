@@ -9,19 +9,21 @@ My field of expertise is penetration testing and DarkWeb reserching.
 - Founder of LabPixel Frameworks
 - Pentester, RedTeam
 
-# Career
+# 職歴
 
-| 2017/04 ~ 2021/09,    Sapporo Kosei J.H-School
-| 2022/04 ~ 2022/10,    Backend Engineer @ LITE Inc
-| 2021/08 ~ ,           42Tokyo
-| 2022/04 ~ 2024/03,    Sapporo Odori H-School
-| 2022/09 ~ 2023/07,    Programming Instructor @ 株式会社イノベイト札幌
-| 2022/10 ~ 2023/03,    Chief technology officer @ I.T.LAB
-| 2022/11 ~ ,           CyberSecurity HologramDevelop @ Smart Hotel Solutions
-| 2023/05 ~ ,           Cybersecurity Engineer @ 株式会社網屋
-| 2023/09 ~ ,           Cybersecirotu Teacher @ Duy Tan University
-| 2023/12 ~ ,           Chief technology officer / Chief Information Security Officer @ Beginners Tech
-| 2024/04 ~ ,           Penetration tester @ A certain company
+|  2017/04 ~ 2021/09, 生徒,                            札幌光星中学・高校
+|  2022/04 ~ 2022/10, バックエンドエンジニア,           <a href="https://www.wantedly.com/companies/lite" target="_blank">LITE株式会社</a>
+|  2021/08 ~ ,        生徒,                             <a href="https://42tokyo.jp/" target="_blank">42Tokyo</a>
+|  2022/04 ~ 2024/03, 生徒,                            Sapporo Odori H-School
+|  2022/09 ~ 2023/07, プログラミング講師,                <a href="https://www.innovate.co.jp/terakoya/" target="_blank">株式会社イノベイト札幌</a>
+|  2022/10 ~ 2023/03, CTO（最高技術責任者）,             I.T.LAB
+|  2022/11 ~ ,        プロジェクトマネージャー,          <a href="https://en-jp.wantedly.com/companies/company_4034677" target="_blank">Smart Hotel Solutions</a>
+|  2023/05 ~ ,        サイバーセキュリティリサーチャー,    <a href="https://www.amiya.co.jp/" target="_blank">株式会社網屋</a>
+|  2023/09 ~ ,        レッドチーム講師,                  <a href="https://duytan.edu.vn/" target="_blank">Duy Tan大学（ベトナム）</a>
+|  2023/12 ~ ,        CISO（最高情報セキュリティ責任者）,  Beginners Tech 株式会社
+|  2024/04 ~ ,        ペネトレーションテスター,           <a href="https://z.fore-co.ltd/" target="_blank">株式会社フォアーゼット</a>
+|  2024/05 ~ ,        技術メンター・顧問,                <a href="https://satoyamakaigi.com/" target="_blank">一般社団法人サトヤマカイギ</a>
+
 
 
 # Major
@@ -39,21 +41,21 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 ## CTF
 
-| West-Sec 8割解けるCTF,               🥇
-| Speed Dating CTF 2023,              🥉
-| DamCTF 2023,                        50th
-| HackPackCTF 2023,                   67th
-| JerseyCTF 2023,                     137th
-| RICERCA CTF 2023,                   65th
-| picoCTF 2023 高校生部門,             🥈
-| CyberGym CTF,                       🥇
-| WaniCTF 2023,                       14th
-| SECCON Beginners 2023,              183th
-| UIUCTF 2023,                        109th
-| SC4Y('23#2) Micro Hardening Basic,  🥇
-| SECCON 2023 Quals Domestic,         14th
-| SECCON 2023 Quals ,                 51th
-| West-Sec 8割解けるCTF,               4th
+|  🥇,   West-Sec 8割解けるCTF, 
+|  🥉,   Speed Dating CTF 2023,  
+|  50th,  DamCTF 2023,  
+|  67th,  HackPackCTF 2023,  
+|  37th,  JerseyCTF 2023,  
+|  65th,  RICERCA CTF 2023,  
+|  🥈,   picoCTF 2023 高校生部門, 
+|  🥇,   CyberGym CTF,  
+|  14th,  WaniCTF 2023,  
+|  83th,  SECCON Beginners 2023, 
+|  09th,  UIUCTF 2023, 
+|  🥇,   SC4Y('23#2) Micro Hardening Basic,  
+|  14th,  SECCON 2023 Quals Domestic,  
+|  51th,  SECCON 2023 Quals,  
+|  4th,   West-Sec 8割解けるCTF,  
 
 ## HackTheBox
 
@@ -61,8 +63,9 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 ## BugBounty
 
-- <a href="https://hackerone.com/ayato" target="_blank">HackerOne</a>
-- <a href="https://issuehunt.io/profiles/1e4fac1d-48b8-4d35-9835-023063420cc2" target="_blank">IssueHunt: 5+ vulnerabilities found</a>
+- <a href="https://issuehunt.io/programs/rakuten-vdp/hof" target="_blank">Rakutn VDP にてHall of Fameを獲得</a>
+- <a href="https://issuehunt.io/leaderboard?range=2024-02-29T15%253A00%253A00.000Z&range=2024-03-31T14%253A59%253A59.059Z" target="_blank">IssueHuntにて2024年3月ランキング1位</a>
+- <a href="https://issuehunt.io/programs/e474409a-40e9-426c-b5f4-24a5bd51b4cf/disclosures/f44350fb-150e-4dad-8124-37221f81afa1" target="_blank">Rakuten VDP にて脆弱性報告の開示</a>
 
 ## CVE & JVN
 
@@ -97,8 +100,10 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 # SNS
 
-- <a href="https://github.com/ayato-shitomi" target="_blank">GitHub</a>
-- <a href="https://twitter.com/AyatoShitomi" target="_blank">Twitter</a>
-- <a href="https://www.instagram.com/ayato_shitomi/" target="_blank">Instagram</a>
-- <a href="https://www.wantedly.com/id/ayato_shitomi" target="_blank">Wantedly</a>
-- <a href="https://qiita.com/LabPixel/" target="_blank">Qiita</a>
+- <a href="https://github.com/ayato-shitomi" target="_blank">GitHub @ ayato-shitomi</a>
+- <a href="https://twitter.com/AyatoShitomi" target="_blank">Twitter @ AyatoShitomi</a>
+- <a href="https://www.instagram.com/ayato_shitomi/" target="_blank">Instagram @ ayato_shitomi</a>
+- <a href="https://www.wantedly.com/id/ayato_shitomi" target="_blank">Wantedly @ ayato_shitomi</a>
+- <a href="https://qiita.com/LabPixel/" target="_blank">Qiita @ LabPixel</a>
+- <a href="https://hackerone.com/ayato" target="_blank">HackerOne @ ayato</a>
+- <a href="https://issuehunt.io/profiles/ayato" target="_blank">IssueHunt @ ayato</a>
