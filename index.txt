@@ -63,9 +63,11 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 ## BugBounty
 
-- <a href="https://issuehunt.io/programs/rakuten-vdp/hof" target="_blank">Rakutn VDP にてHall of Fameを獲得</a>
+- <a href="https://issuehunt.io/programs/rakuten-vdp/hof" target="_blank">Rakutn VDP にて Hall of Fame（表彰）を獲得</a>
 - <a href="https://issuehunt.io/leaderboard?range=2024-02-29T15%253A00%253A00.000Z&range=2024-03-31T14%253A59%253A59.059Z" target="_blank">IssueHuntにて2024年3月ランキング1位</a>
 - <a href="https://issuehunt.io/programs/e474409a-40e9-426c-b5f4-24a5bd51b4cf/disclosures/f44350fb-150e-4dad-8124-37221f81afa1" target="_blank">Rakuten VDP にて脆弱性報告の開示</a>
+- <a https://issuehunt.io/programs/d7c3def6-9500-469d-b114-e5dd71d39621/hof
+- <a href="https://issuehunt.io/programs/d7c3def6-9500-469d-b114-e5dd71d39621/hof" target="_blank">LINE WORKS/LINE WORKS Bug Bounty Program にて Hall of Fame（表彰）を獲得</a>
 
 ## CVE & JVN
 
