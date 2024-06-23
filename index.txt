@@ -77,6 +77,7 @@ My field of expertise is penetration testing and DarkWeb reserching.
 - <a href="https://sc4y.connpass.com/event/272330/" target="_blank">HAISLサイバーセキュリティセミナーでの登壇</a>
 - <a href="https://prone.jp/press_releases/4501" target="_blank">北海道大学札幌ミライカイギでの登壇</a>
 - <a href="https://itfessp.cloudfree.jp/" target="_blank">SAPPORO JUNIOR IT FESでの登壇</a>
+- <a href="https://www.police.pref.saitama.lg.jp/c0070/kurashi/cyber-expert.html" target="_blank">埼玉県警にてレッドチームとして講演</a>
 
 # Media
 
