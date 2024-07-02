@@ -89,6 +89,7 @@ My field of expertise is penetration testing and DarkWeb reserching.
 - <a href="http://www.drt.danang.vn/truyen_hinh-123100-184" target="_blank">【DaNang TV】News about Duy Tan University</a>
 - <a href="https://ledge.ai/articles/dtu-series-1" target="_blank">【Ledge.ai】日本初、現役高校生がベトナム有名大学で教壇に！</a>
 - <a href="https://atmarkit.itmedia.co.jp/ait/articles/2311/01/news004.html" target="_blank">【＠IT】あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望</a>
+- <a href="https://expo-2024-summer.ledge.ai/generative-ai-risks-2" target="_blank">【Ledge.ai EXPO 2024 Summer】WordPressで構築されたウェブサイトのハッキング実演</a>
 
 # Event
 
