@@ -1,20 +1,15 @@
-# Ayato Shitomi
+# 蔀 綾人 / Ayato Shitomi
 
-My career was started when I'm 17 years old as a backed engineer.
-After working for some benture companies, I became a CTO and participated in launch of a new business.
-My field of expertise is penetration testing and DarkWeb reserching.
+17歳でバックエンドエンジニアとして活動を開始。
+いくつかのベンチャー企業にてエンジニアとして勤めた後、CTOとして新規ビジネスに従事。
+ペネトレーションテストやレッドチームオペレーションが専門。
 
-- Born in Sapporo, Japan
-- Founder of <a href="https://beginnerssec.com/" target="_blank">BeginnersSec</a>
-- Founder of LabPixel Frameworks
-- Pentester, RedTeam
-
-# 職歴
+# 📄経歴
 
 |  2017/04 ~ 2021/09, 生徒,                            札幌光星中学・高校
 |  2022/04 ~ 2022/10, バックエンドエンジニア,           <a href="https://www.wantedly.com/companies/lite" target="_blank">LITE株式会社</a>
 |  2021/08 ~ ,        生徒,                             <a href="https://42tokyo.jp/" target="_blank">42Tokyo</a>
-|  2022/04 ~ 2024/03, 生徒,                            Sapporo Odori H-School
+|  2022/04 ~ 2024/03, 生徒,                            札幌大通高校
 |  2022/09 ~ 2023/07, プログラミング講師,                <a href="https://www.innovate.co.jp/terakoya/" target="_blank">株式会社イノベイト札幌</a>
 |  2022/10 ~ 2023/03, CTO（最高技術責任者）,             I.T.LAB
 |  2022/11 ~ ,        プロジェクトマネージャー,          <a href="https://en-jp.wantedly.com/companies/company_4034677" target="_blank">Smart Hotel Solutions</a>
@@ -24,20 +19,17 @@ My field of expertise is penetration testing and DarkWeb reserching.
 |  2024/04 ~ ,        ペネトレーションテスター,           <a href="https://z.fore-co.ltd/" target="_blank">株式会社フォアーゼット</a>
 |  2024/05 ~ ,        技術メンター・顧問,                <a href="https://satoyamakaigi.com/" target="_blank">一般社団法人サトヤマカイギ</a>
 
-
-
-# Major
+# 👉専門
 
 - 0day attacks
 - Linux
 - Web
 - OSINT
 - DarkWeb
-- Forensic
 - RedTeam, BlueTeam Operation
 - Japanese, English
 
-# Achievement
+# 🏆実績
 
 ## CTF
 
@@ -72,14 +64,14 @@ My field of expertise is penetration testing and DarkWeb reserching.
 
 - under construction
 
-# Stage
+# 📢講演
 
 - <a href="https://sc4y.connpass.com/event/272330/" target="_blank">HAISLサイバーセキュリティセミナーでの登壇</a>
 - <a href="https://prone.jp/press_releases/4501" target="_blank">北海道大学札幌ミライカイギでの登壇</a>
 - <a href="https://itfessp.cloudfree.jp/" target="_blank">SAPPORO JUNIOR IT FESでの登壇</a>
 - <a href="https://www.police.pref.saitama.lg.jp/c0070/kurashi/cyber-expert.html" target="_blank">埼玉県警にてレッドチームとして講演</a>
 
-# Media
+# 📺メディア
 
 - <a href="https://note.42tokyo.jp/n/naf350a626f45" target="_blank">映画で観たハッカーに憧れて。高校を中退し、札幌から好きなことに全力で打ち込む10代の肖像</a>
 - <a href="https://career.nikkei.com/nikkei-pickup/002541/" target="_blank">【日本経済新聞】さらば学歴、DX採用はスキルで　世界で人材奪い合い</a>
@@ -91,7 +83,7 @@ My field of expertise is penetration testing and DarkWeb reserching.
 - <a href="https://atmarkit.itmedia.co.jp/ait/articles/2311/01/news004.html" target="_blank">【＠IT】あやと、18歳　高校を中退してでも貫きたかった「強いハッカー」への羨望</a>
 - <a href="https://expo-2024-summer.ledge.ai/generative-ai-risks-2" target="_blank">【Ledge.ai EXPO 2024 Summer】WordPressで構築されたウェブサイトのハッキング実演</a>
 
-# Event
+# 💥出席したイベント
 
 - Micro Hardening for Youth 2022
 - Hardening DECADE 2022 OKINAWA
@@ -100,8 +92,9 @@ My field of expertise is penetration testing and DarkWeb reserching.
 - セキュリティ・キャンプ全国大会2023
 - Hardening Generative 2023 HOKKAIDO
 - セキュリティ・ミニキャンプ 北海道
+- Hardening 2024 Convolutions OKINAWA 
 
-# SNS
+# 🌐SNS
 
 - <a href="https://github.com/ayato-shitomi" target="_blank">GitHub @ ayato-shitomi</a>
 - <a href="https://twitter.com/AyatoShitomi" target="_blank">Twitter @ AyatoShitomi</a>

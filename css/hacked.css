@@ -13,10 +13,16 @@
 	font-size: bold;
 }
 
-#exp {
+#exp{
 	background-color: white;
 	padding: 2%;
 }
+
+a{
+	background-color: white;
+	padding: 2%;
+}
+
 
 #text {
 	color: rgb(44, 44, 44);

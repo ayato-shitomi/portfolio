@@ -68,7 +68,7 @@ function convertTextToHTML(text) {
 			}
 			currentTag = "table";
 		} else {
-			html += line + '<br>';
+			html += "<p>" + line + '</p>';
 		}
 	}
 	return html;
