@@ -48,6 +48,7 @@
 |  14th,  SECCON 2023 Quals Domestic,  
 |  51th,  SECCON 2023 Quals,  
 |  4th,   West-Sec 8割解けるCTF,  
+|  38th,   COMPFEST CTF 16,
 
 ## HackTheBox
 
