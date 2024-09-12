@@ -94,6 +94,7 @@
 - Hardening Generative 2023 HOKKAIDO
 - セキュリティ・ミニキャンプ 北海道
 - Hardening 2024 Convolutions OKINAWA 
+- セキュリティ・ミニキャンプ　岩手　チューター
 
 # 🌐SNS
 
