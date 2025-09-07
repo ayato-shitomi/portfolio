@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
       <title>FL Attack</title>
@@ -8,9 +8,9 @@
           <input type="hidden" name="url" value="">
       </form>
       <script>
-          // 存在しない通貨コード（レートが未定義）を利用
+          // XX通貨(レート0)で大量購入→少量売却で残高操作
           const yaml = `
-  - amount: 1
+  - amount: 1000000
     currency: XX
     op: BUY
   - amount: 1000000
