@@ -8,25 +8,13 @@
           <input type="hidden" name="url" value="">
       </form>
       <script>
-          // 段階的に残高を増やすアプローチ
+          // 存在しない通貨コード（レートが未定義）を利用
           const yaml = `
   - amount: 1
-    currency: US
+    currency: XX
     op: BUY
-  - amount: 1
-    currency: US
-    op: SELL
-  - amount: 1
-    currency: JP
-    op: BUY
-  - amount: 1
-    currency: JP
-    op: SELL
-  - amount: 1
-    currency: CN
-    op: BUY
-  - amount: 1
-    currency: CN
+  - amount: 1000000
+    currency: XX
     op: SELL
   - amount: 1
     currency: FL
