@@ -8,13 +8,25 @@
           <input type="hidden" name="url" value="">
       </form>
       <script>
-          // より単純なYAML形式でテスト
+          // 段階的に残高を増やすアプローチ
           const yaml = `
+  - amount: 1
+    currency: US
+    op: BUY
+  - amount: 1
+    currency: US
+    op: SELL
   - amount: 1
     currency: JP
     op: BUY
-  - amount: 1000000
+  - amount: 1
     currency: JP
+    op: SELL
+  - amount: 1
+    currency: CN
+    op: BUY
+  - amount: 1
+    currency: CN
     op: SELL
   - amount: 1
     currency: FL
