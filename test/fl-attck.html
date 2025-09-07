@@ -1,11 +1,11 @@
 <script>
-      (async () => {
+  (async () => {
     try {
-      // transactions配列をURLパラメータとして構築
+      // 実在する国名を使用してバランス操作
       const transactions = [
-        {amount: 1000001, country: 'ZZ', op: 'BUY'},
-        {amount: 1000001, country: 'ZZ', op: 'SELL'},
-        {amount: 1, country: 'FLAG', op: 'BUY'}
+        {amount: 1, country: 'Japan', op: 'BUY'},      // 1円で日本円を購入（コスト1、残高0）
+        {amount: 1000000, country: 'Japan', op: 'SELL'}, // 大量売却で残高を1000000に増加
+        {amount: 1, country: 'FLAG', op: 'BUY'}        // FL通貨を購入
       ];
 
       let params = '';
@@ -14,7 +14,6 @@
         params += `transactions[${i}][country]=${tx.country}&`;
       });
 
-      // GETリクエストでsimulate_transactions()を実行
       window.location.href = `http://localhost:5000/admin.php?${params.slice(0, -1)}`;
 
     } catch (e) {
